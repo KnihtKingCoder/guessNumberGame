@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+html{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../image/download.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.game-ins{
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.game-ins h1{
+    text-align: center;
+    font-size: 50px;
+    text-decoration:underline;
+}
+
+.game-ins h2{
+    font-size: 30px;
+}
+
+.game-ins ol{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    gap: 10px;
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.game-ins h3{
+    font-size: 30px;
+    text-decoration:underline;
+}
+
+button{
+    padding: 5px 10px;
+    background-color: #fff;
+    color: #fff;
+   border: 2px solid #fff;
+   border-radius: 20px;
+   box-shadow: 0 0 20px rgba(0, 0, 0, 0.238);
+}
+
+button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+a:hover{
+    color: #fff;
+}
+
+
+
+
